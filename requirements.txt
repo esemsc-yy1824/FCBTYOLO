@@ -1,0 +1,41 @@
+# Ultralytics Dependency Requirements  
+# Install using: pip install -r requirements.txt  
+
+# Core Dependencies ----------------------------------------
+matplotlib>=3.2.2  # Visualization library  
+numpy>=1.18.5  # Numerical computing  
+opencv-python>=4.6.0  # OpenCV for image processing  
+Pillow>=7.1.2  # Image handling  
+PyYAML>=5.3.1  # YAML file parsing  
+requests>=2.23.0  # HTTP requests  
+scipy>=1.4.1  # Scientific computing  
+torch>=2.6.0  # PyTorch deep learning framework  
+torchvision>=0.8.1  # PyTorch vision utilities   
+
+# Logging and Experiment Tracking -------------------------------------
+tensorboard>=2.4.1  # TensorFlow logging and visualization  
+clearml  # ML experiment management  
+comet  # Experiment tracking and visualization  
+
+# Data Analysis and Plotting ------------------------------------
+pandas>=1.1.4  # Data manipulation  
+seaborn>=0.11.0  # Statistical data visualization  
+
+# Model Export and Deployment --------------------------------------
+coremltools>=6.0  # CoreML model export for Apple devices  
+onnx>=1.12.0  # Open Neural Network Exchange format  
+onnxsim>=0.4.1  # ONNX model simplification  
+nvidia-pyindex  # NVIDIA package index for TensorRT   
+scikit-learn>=0.19.2  # Machine learning utilities  
+tensorflow>=2.4.1  # TensorFlow model export (CPU, AArch64, macOS)  
+tflite-support  # TensorFlow Lite utilities  
+tensorflowjs>=3.9.0  # TensorFlow.js model export  
+openvino-dev>=2022.3  # OpenVINO inference optimization  
+
+# Additional Utilities --------------------------------------
+psutil  # System resource monitoring  
+thop>=0.1.1  # FLOP computation for model complexity  
+ipython  # Interactive Python shell  
+albumentations>=1.0.3  # Advanced image augmentations  
+pycocotools>=2.0.6  # COCO dataset evaluation metrics  
+roboflow  # Dataset management and augmentation  

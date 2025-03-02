@@ -1,0 +1,20 @@
+train: ../../data/GPest14/train
+val: ../../data/GPest14/val
+test: ../../data/GPest14/test
+
+nc: 14
+names:
+  0: asiatic_rice_borer
+  1: brown_plant_hopper
+  2: grain_spreader_thrips
+  3: paddy_stem_maggot
+  4: rice_gall_midge
+  5: rice_leaf_caterpillar
+  6: rice_leaf_hopper
+  7: rice_leaf_roller
+  8: rice_shell_pest
+  9: rice_stemfly
+  10: rice_water_weevil
+  11: small_brown_plant_hopper
+  12: white_backed_plant_hopper
+  13: yellow_rice_borer
