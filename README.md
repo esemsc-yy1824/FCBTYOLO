@@ -36,7 +36,7 @@ The model achieves a mean Average Precision (mAP@50) of **93.6%** with a model s
 ### GPest14 Dataset
 The dataset consists of 13,877 images covering 14 rice pest categories. It was augmented using FastGAN for better class balance.
 
-<img src="./docs/imgs/img 1.png" alt="img 1" style="width:50%; display: block; margin: auto;">
+<img src="./docs/imgs/img 1.png" alt="img 1" style="width:70%; display: block; margin: auto;">
 
 <p style="font-size: 10px"><b>FIGURE 2.</b> Example images from the Gpest14 dataset</p>
 
