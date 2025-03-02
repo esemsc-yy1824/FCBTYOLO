@@ -6,7 +6,7 @@ This repository contains the implementation of **FCBTYOLO**, a lightweight and h
 
 The model achieves a mean Average Precision (mAP@50) of **93.6%** with a model size of only **6.7MB**, making it suitable for deployment on embedded devices in real-world agricultural scenarios.  
 
-<img src="./docs/imgs/img 13.png" alt="img 13" style="width:100%; display: block; margin: auto;"> 
+<img src="./docs/imgs/img 13.png" alt="img 13" style="width:80%; display: block; margin: auto;"> 
 
 <p style="font-size: 10px;"><b>FIGURE 1.</b> The attention heatmap drawn by FCBTYOLO. (a), (d) are the original images. (b), (e) are the attention heatmaps after visualizing the feature maps of YOLOv8n. (c), (f) are the attention heatmaps after visualizing the feature maps of FCBTYOLO.</p>
 
@@ -36,7 +36,7 @@ The model achieves a mean Average Precision (mAP@50) of **93.6%** with a model s
 ### GPest14 Dataset
 The dataset consists of 13,877 images covering 14 rice pest categories. It was augmented using FastGAN for better class balance.
 
-<img src="./docs/imgs/img 1.png" alt="img 1" style="width:70%; display: block; margin: auto;">
+<img src="./docs/imgs/img 1.png" alt="img 1" style="width:80%; display: block; margin: auto;">
 
 <p style="font-size: 10px"><b>FIGURE 2.</b> Example images from the Gpest14 dataset</p>
 
