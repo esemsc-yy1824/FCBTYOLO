@@ -63,7 +63,7 @@ The FCBTYOLO model is based on the YOLOv8 architecture, with the following key m
 - **FCBT Module**: The FCBT module is integrated at the end of the YOLOv8 backbone. It replaces some spatial convolution channels with Multi-head Self-attention (MHSA) layers, allowing the model to capture global dependencies while maintaining a lightweight structure.
 - **Lightweight Design**: The model is designed to be compact, with a total of 4.247 million parameters and a model size of 6.7MB, making it suitable for deployment on embedded devices.
 
-<img src="./docs/imgs/img 9.png" alt="img 1" style="width:70%; display: block; margin: auto;"> 
+<img src="./docs/imgs/img 9.png" alt="img 1" style="width:80%; display: block; margin: auto;"> 
 
 <p style="font-size: 10px"><b>FIGURE 3.</b>  The structure of the FCBTYOLO</p>
 
