@@ -106,17 +106,8 @@ python detect.py
 <p style="font-size: 10px"><b>FIGURE 4.</b> Comparison of the accuracy and weight file size of the FCBTYOLO model with CNN and SSD detection frameworks.</p>
 
 ## Citation
-If you use this code in your research, please cite the following paper:
-```bibtex
-@article{yang2023fcbtyolo,
-  title={FCBTYOLO: A Lightweight and High-Performance Fine Grain Detection Strategy for Rice Pests},
-  author={Yiyu Yang et al.},
-  journal={IEEE Access},
-  year={2023},
-  volume={11},
-  pages={101286-101295},
-  doi={10.1109/ACCESS.2023.3314697}
-```
+If you use these code in your research, please cite the [original paper](https://ieeexplore.ieee.org/document/10250915).
+
 
 ## License
 This work is licensed under a **GNU General Public License v3.0 (GPL v3.0)** License. See [LICENSE](LICENSE) for details.
