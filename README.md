@@ -113,4 +113,4 @@ If you use these code in your research, please cite the [original paper](https:/
 This work is licensed under a **GNU General Public License v3.0 (GPL v3.0)** License. See [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
-This work was supported by the Sichuan Provincial Department of Science and Technology and the National Innovation and Entrepreneurship Training Program for College Students.
+This work was supported by the *Sichuan Provincial Department of Science and Technology* and the *National Innovation and Entrepreneurship Training Program for College Students*.
