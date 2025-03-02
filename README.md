@@ -1,5 +1,5 @@
-
 # FCBTYOLO: A Lightweight and High-Performance Fine Grain Detection Strategy for Rice Pests
+🧙‍♀️Yiyu Yang  [[LinkedIn](https://www.linkedin.com/in/yiyu-yang/)] ✉️[Email: yangalita73@gmail.com]  
 
 ## Introduction
 This repository contains the implementation of **FCBTYOLO**, a lightweight and high-performance object detection model designed for fine-grained detection of rice pests. The model is based on the YOLOv8 architecture, enhanced with a novel **Fully Connected Bottleneck Transformer (FCBT)** module. The goal of this project is to provide an efficient and accurate solution for detecting rice pests in agricultural fields, enabling timely pest control and reducing crop losses.
