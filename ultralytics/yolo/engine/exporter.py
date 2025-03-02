@@ -573,7 +573,7 @@ class Exporter:
     @try_export
     def _export_edgetpu(self, tflite_model='', prefix=colorstr('Edge TPU:')):
         # YOLOv8 Edge TPU export https://coral.ai/docs/edgetpu/models-intro/
-        LOGGER.warning(f'{prefix} WARNING ⚠️ Edge TPU known bug https://github.com/ultralytics/ultralytics/issues/1185')
+        LOGGER.warning(f'{prefix} WARNING ⚠️ Edge TPU known bug https://github.com/FCBTYOLO/ultralytics/issues/1185')
 
         cmd = 'edgetpu_compiler --version'
         help_url = 'https://coral.ai/docs/edgetpu/compiler/'

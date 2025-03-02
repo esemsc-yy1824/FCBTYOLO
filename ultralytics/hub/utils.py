@@ -185,7 +185,7 @@ class Traces:
             RANK in (-1, 0) and \
             not TESTS_RUNNING and \
             ONLINE and \
-            (is_pip_package() or get_git_origin_url() == 'https://github.com/ultralytics/ultralytics.git')
+            (is_pip_package() or get_git_origin_url() == 'https://github.com/FCBTYOLO/ultralytics.git')
 
     def __call__(self, cfg, all_keys=False, traces_sample_rate=1.0):
         """

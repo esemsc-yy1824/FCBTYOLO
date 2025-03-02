@@ -140,8 +140,8 @@ class yolov8_heatmap:
 
 def get_params():
     params = {
-        'weight': 'ultralytics/runs/detect/train9/weights/best.pt',
-        'cfg': 'ultralytics/ultralytics/models/v8/yolov8n_FCBT.yaml',
+        'weight': 'FCBTYOLO/runs/detect/train9/weights/best.pt',
+        'cfg': 'FCBTYOLO/ultralytics/models/v8/yolov8n_FCBT.yaml',
         'device': 'cuda:0',
         'method': 'GradCAM',
         'layer': 'model.model[9]', 
@@ -154,4 +154,4 @@ def get_params():
 
 if __name__ == '__main__':
     model = yolov8_heatmap(**get_params())
-    model('ultralytics/a-150.jpg', 'ultralytics/heat_result') # 路径 保存文件夹
+    model('FCBTYOLO/a-150.jpg', 'FCBTYOLO/heat_result') # input image path, save path

@@ -88,7 +88,7 @@ HELP_MSG = \
 
     Docs: https://docs.ultralytics.com
     Community: https://community.ultralytics.com
-    GitHub: https://github.com/ultralytics/ultralytics
+    GitHub: https://github.com/FCBTYOLO/ultralytics
     """
 
 # Settings
@@ -116,7 +116,7 @@ class IterableSimpleNamespace(SimpleNamespace):
             '{name}' object has no attribute '{attr}'. This may be caused by a modified or out of date ultralytics
             'default.yaml' file.\nPlease update your code with 'pip install -U ultralytics' and if necessary replace
             {DEFAULT_CFG_PATH} with the latest version from
-            https://github.com/ultralytics/ultralytics/blob/main/ultralytics/yolo/cfg/default.yaml
+            https://github.com/FCBTYOLO/ultralytics/blob/main/ultralytics/yolo/cfg/default.yaml
             """)
 
     def get(self, key, default=None):
@@ -529,7 +529,7 @@ def set_sentry():
             not TESTS_RUNNING and \
             ONLINE and \
             ((is_pip_package() and not is_git_dir()) or
-             (get_git_origin_url() == 'https://github.com/ultralytics/ultralytics.git' and get_git_branch() == 'main')):
+             (get_git_origin_url() == 'https://github.com/FCBTYOLO/ultralytics.git' and get_git_branch() == 'main')):
 
         import sentry_sdk  # noqa
         sentry_sdk.init(

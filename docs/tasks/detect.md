@@ -11,7 +11,7 @@ scene, but don't need to know exactly where the object is or its exact shape.
 
     YOLOv8 _detection_ models have no suffix and are the default YOLOv8 models, i.e. `yolov8n.pt` and are pretrained on COCO.
 
-[Models](https://github.com/ultralytics/ultralytics/tree/main/ultralytics/models/v8){ .md-button .md-button--primary}
+[Models](https://github.com/FCBTYOLO/ultralytics/tree/main/ultralytics/models/v8){ .md-button .md-button--primary}
 
 ## Train
 

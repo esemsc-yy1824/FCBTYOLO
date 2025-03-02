@@ -44,7 +44,7 @@ CLI_HELP_MSG = \
 
     Docs: https://docs.ultralytics.com/cli
     Community: https://community.ultralytics.com
-    GitHub: https://github.com/ultralytics/ultralytics
+    GitHub: https://github.com/FCBTYOLO/ultralytics
     """
 
 # Define keys for arg type checks

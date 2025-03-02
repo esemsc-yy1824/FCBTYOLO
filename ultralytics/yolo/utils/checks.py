@@ -252,7 +252,7 @@ def check_yolov5u_filename(file: str, verbose: bool = True):
         file = re.sub(r'(.*yolov3(|-tiny|-spp))\.', '\\1u.', file)  # i.e. yolov3-spp.pt -> yolov3-sppu.pt
         if file != original_file and verbose:
             LOGGER.info(f"PRO TIP 💡 Replace 'model={original_file}' with new 'model={file}'.\nYOLOv5 'u' models are "
-                        f'trained with https://github.com/ultralytics/ultralytics and feature improved performance vs '
+                        f'trained with https://github.com/FCBTYOLO/ultralytics and feature improved performance vs '
                         f'standard YOLOv5 models trained with https://github.com/ultralytics/yolov5.\n')
     return file
 
