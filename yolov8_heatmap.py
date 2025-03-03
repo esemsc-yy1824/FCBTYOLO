@@ -1,3 +1,13 @@
+"""
+This script requires the 'pytorch_grad_cam' package for generating Gradient-weighted Class Activation Mapping (Grad-CAM) visualizations.
+Install the package using the following command:
+
+    pip install pytorch-grad-cam
+
+For more information, refer to the official documentation:
+https://github.com/jacobgil/pytorch-grad-cam
+"""
+
 import warnings
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
@@ -49,7 +59,8 @@ def letterbox(im, new_shape=(640, 640), color=(114, 114, 114), auto=True, scaleF
 class yolov8_heatmap:
     def __init__(self, weight, cfg, device, method, layer, backward_type, conf_threshold, ratio):
         device = torch.device(device)
-        ckpt = torch.load(weight)
+        # ckpt = torch.load(weight)
+        ckpt = torch.load(weight, weights_only=False)
         model_names = ckpt['model'].names
         csd = ckpt['model'].float().state_dict()  # checkpoint state_dict as FP32
         model = Model(cfg, ch=3, nc=len(model_names)).to(device)
